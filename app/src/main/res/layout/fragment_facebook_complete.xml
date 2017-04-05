@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moods_final.moods.feeds.Facebook_complete">
+
+
+    <ListView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:id="@+id/list_view"
+        android:maxLines = "1000"
+        android:scrollbars = "vertical"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:width="100dp"
+        android:id="@+id/button5"
+        android:layout_marginLeft="29dp"
+        android:layout_below="@+id/login_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Fetch Likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_toRightOf="@+id/button5"
+        android:layout_toEndOf="@+id/button5" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="144dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Fetch Posts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_toRightOf="@+id/button4"
+        android:layout_toEndOf="@+id/button4" />
+
+    <TextView
+        android:text="Field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:id="@+id/mylabel"
+        android:layout_below="@id/button3"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Moods</string>
+
+    <string name="facebook_app_id">1662882170704583</string>
+    <!-- Emotion subscription key -->
+    <!-- Please refer to https://www.projectoxford.ai/ to get your subscription key -->
+    <!-- If you have one subscription key, you can add it here to use the service -->
+    <string name="subscription_key">98c5f335e32f4d10b735f92b61b9c371</string>
+
+    <!-- Face subscription key -->
+    <!-- Please refer to http://oxford-portal.azurewebsites.net/doc/general/subscription-key-mgmt to get your subscription key -->
+    <!-- Please note that the Emotion API and Face API have different subscription keys -->
+    <!-- You will need Face subscription key, besides the Emotion subscription keys, for the second part of the sample to work -->
+    <string name="faceSubscription_key">7bd791fe3f3340aa9fee60de98c9f7c6</string>
+
+    <!-- Display strings -->
+    <string name="add_subscription_key_tip_title">Subscription Key is Needed</string>
+    <string name="add_subscription_key_tip">Please put your two subscription keys for Emotion API/Face API to source file \"app/res/values/strings.xml\" to enable Emotion API and Face API calls.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_analyze">Detect Mood</string>
+    <string name="title_activity_recognize">RecognizeActivity</string>
+    <string name="title_activity_thumbnail">ThumbnailActivity</string>
+
+    <!-- Select image activity -->
+    <string name="select_an_image">Select an Image</string>
+    <string name="take_photo">Take a Photo</string>
+    <string name="select_image_in_album">From Gallery</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="dummy_string">Dummy String</string>
+    <string name="acivity_name">Draw emotion</string>
+    <string name="enter_name">Enter Name:</string>
+    <string name="enter_new_name">Enter new name:</string>
+    <string name="save_gesture">Save Gesture</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="invalid_name">Enter valid name</string>
+    <string name="gesture_saved"> saved successfully to : </string>
+    <string name="no_gesture">Please draw gesture first!</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="add_gesture_button">Add</string>
+    <string name="test_gesture_button">Test</string>
+    <string name="cannot_load_library">cannot load gesture library</string>
+    <string name="test_gesture_activity_label">Test Gesture</string>
+    <string name="draw_a_gesture">Draw emoticon, I will try to recognize!</string>
+
+
+    <string name="youtube_api_demo">YouTube Topics</string>
+
+
+    <string name="videolist_demo_name">Video List</string>
+    <string name="playerview_text">This is a YouTubePlayerView!</string>
+    <string name="playerfragment_text">This is a YouTubePlayerFragment!</string>
+
+    <string name="demo_select">Please select a demo:</string>
+    <string name="some_demos_disabled">* Your device is currently running Android API version <xliff:g id="current_version">%1$s</xliff:g>.</string>
+    <string name="list_item_disabled">Requires Android API version <xliff:g id="required_version">%1$s</xliff:g> or higher.</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="skip_to">Skip To</string>
+    <string name="seconds">secs</string>
+    <string name="player_style">Player Style</string>
+    <string name="def">Default</string>
+    <string name="minimal">Minimal</string>
+    <string name="chromeless">Chromeless</string>
+
+    <string name="play_video">Play video</string>
+    <string name="play_playlist">Play playlist</string>
+    <string name="play_video_list">Play video list</string>
+    <string name="start_index">Start index</string>
+    <string name="start_time">Start time (sec)</string>
+    <string name="autoplay">Autoplay</string>
+    <string name="lightbox_mode">Lightbox mode</string>
+
+    <string name="intent_select">Please select an action:</string>
+    <string name="intent_disabled">This intent is not supported with the currently installed version of YouTube.</string>
+    <string name="youtube_currently_installed">YouTube version installed on this device: <xliff:g id="youtube_version">%1$s</xliff:g>.</string>
+    <string name="youtube_not_installed">YouTube is not installed on this device.</string>
+
+    <string name="fullscreen_tutorial">This is a demo which shows how to handle fullscreen behaviour. This activity has differents layouts for portrait, landscape and fullscreen. The user can enter fullscreen either by using the player controller or programmatically by the programmer (here using a button). If your activity does not have a landscape layout, you can choose to automatically enter fullscreen when the device is rotated to landscape orientation.</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="landscape_fullscreen">Always fullscreen in landscape</string>
+
+    <string name="actionbar_tutorial">This is a demo which shows how to use the ActionBar as an overlay when the video is playing in fullscreen. The actionbar will automatically fade away along with the player controls when the video is being played in fullscreen. While not in fullscreen the Actionbar is visible and does not overlay any of the views.</string>
+
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+//appintro
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">What\'s your mood? </string>
+    <string name="slide_1_desc">Happy?</string>
+
+    <string name="slide_2_title">Sad?</string>
+    <string name="slide_2_desc">Angry? Neutral ? What?</string>
+
+    <string name="slide_3_title">So many moods? </string>
+    <string name="slide_3_desc">But none you know!</string>
+
+    <string name="slide_4_title">Go, ahead and explore!</string>
+    <string name="slide_4_desc">Movies, Tv-series, music , events and much more!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

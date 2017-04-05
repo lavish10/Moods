@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true">
+
+    <!-- <ListView -->
+    <!-- android:id="@+id/lvImages" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" > -->
+    <!-- </ListView> -->
+
+    <GridView
+        android:id="@+id/gvAllImages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3" >
+    </GridView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvl"
+        android:visibility="invisible"
+        android:animateLayoutChanges="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Back"
+            android:id="@+id/btnclose">
+
+            </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Select"
+            android:id="@+id/select">
+
+        </Button>
+    <WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        />
+    </RelativeLayout>
+
+</RelativeLayout>

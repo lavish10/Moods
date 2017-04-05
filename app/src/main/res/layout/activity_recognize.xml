@@ -1,0 +1,140 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:openDrawer="start"
+    tools:context="com.moods_final.moods.moods.RecognizeActivity"
+    >
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1.03">
+
+        </LinearLayout>
+
+    <ImageView
+        android:id="@+id/selectedImage"
+        android:layout_width="match_parent"
+        android:background="@color/background_material_dark"
+        android:layout_marginTop="33dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_height="300dp" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:id="@+id/buttonSelectImage"
+        android:onClick="selectImage"
+        android:src="@mipmap/add_a_photo_white_"
+        android:background="@color/abc_search_url_text_selected"
+        android:textColor="@color/background_material_light"
+        android:layout_weight="0.73"
+        android:layout_alignBottom="@+id/selectedImage"
+       />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:id="@+id/buttonLogout"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:text="INSTA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button7"
+        android:layout_toRightOf="@+id/button7"
+        android:layout_toEndOf="@+id/button7"
+        android:id="@+id/button8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/feedbtn"
+        android:text="CHAT"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttonLogout"
+        android:layout_alignEnd="@+id/buttonLogout"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp" />
+
+    <Button
+        android:text="Feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/feedbtn"
+        android:layout_toEndOf="@+id/feedbtn" />
+
+    <Button
+        android:text="Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button6"
+        android:layout_toEndOf="@+id/button6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="Recommendation"
+        android:layout_above="@+id/button8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/entertainment"
+        android:text="Entertainment"
+        android:layout_above="@+id/feedbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/places"
+        android:text="Places to visit"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textmood"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large"
+        android:textSize="30sp"
+        android:layout_above="@+id/places"
+        android:layout_alignRight="@+id/places"
+        android:layout_alignEnd="@+id/places"
+        android:textColor="@color/Chartreuse" />
+
+</RelativeLayout>

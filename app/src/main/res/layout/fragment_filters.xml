@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moods_final.moods.feed.Filters">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/maxAge"
+        android:layout_below="@+id/minAge"
+        android:layout_alignLeft="@+id/minAge"
+        android:layout_alignStart="@+id/minAge"
+        android:hint="Max Age" />
+
+    <CheckBox
+        android:text="Female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frb"
+        android:layout_marginLeft="32dp"
+        android:layout_alignBaseline="@+id/mrb"
+        android:layout_alignBottom="@+id/mrb"
+        android:layout_toRightOf="@+id/mrb"
+        android:layout_toEndOf="@+id/mrb"
+        android:layout_marginStart="32dp"
+        />
+
+    <CheckBox
+        android:text="Male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:id="@+id/mrb"
+        android:layout_below="@+id/maxAge"
+        android:layout_alignLeft="@+id/maxAge"
+        android:layout_alignStart="@+id/maxAge"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+
+    <Button
+        android:text="Update Filters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:id="@+id/updatebtn"
+        android:layout_below="@+id/frb"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="133dp"
+        android:id="@+id/minAge"
+        android:hint="Min Age"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

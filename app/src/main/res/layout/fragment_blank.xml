@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.moods_final.moods.feed.BlankFragment">
+    <!--<android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:paddingTop="105dp"
+        android:id="@+id/rl1"
+        ></android.support.v7.widget.RecyclerView>
+-->
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="525dp"
+        android:paddingTop="105dp"
+        android:id="@+id/lv1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blank_button1"
+        android:text="Get Nearby People"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
